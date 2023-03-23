@@ -1,0 +1,411 @@
+
+	<!--<!DOCTYPE html>
+<html>
+  <head>
+    <title>Indian Liver Disorders Risk Questionnaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+    body{
+        text-align: center;
+        background-color:#0000004D;
+       
+    }
+    h1{
+        color:#FFFFFF;
+        font-size:50px;
+        text-align:center;
+        margin:0;
+        text-shadow: 3px 3px 0 #000,
+                    -3px -3px 0 #000,  
+                     3px -3px 0 #000,
+                    -3px  3px 0 #000,
+                     3px  3px 0 #000;
+	}
+    
+    .form-page{
+      padding:0 2em ;
+      height: 34.3em;
+      width:45em;
+	    margin:.5em 0 0em 2em;
+	    background-color:#00000069;
+	    box-shadow: 0 8px 8px 0 rgb(70, 69, 69), 6px 13px 13px 6px rgb(229, 190, 153);
+      
+	}
+    label,#P{
+        color:#FFFFFF;
+        font-family:'Cambria';
+        font-size:20px;
+        
+	}
+    #P{
+        font-size:22px;
+        font-family:Georgia;
+        color:gold;
+        font-weight: bold;
+        margin-top: 15px;
+
+    }
+    #Label{
+        padding-left: 3em;
+    }
+    span {
+        color: #00c848;
+   }
+    #age,#waist,#db,#diet{
+        border: none;
+        color: #fff;
+        text-align: justify;
+        outline: none;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: normal;
+        background-color:rgba(0, 0, 0, 0.38);
+        margin-bottom: 13px;
+	}
+    #db,#diet{
+        height:25px;
+        padding:0 15px;
+        width:30%;
+	}
+    #age,#waist{
+        height:25px;
+        padding:0 15px;
+        width:26%;
+    }
+    #age{
+        margin-left: 20.7em;
+    }
+    #gender{
+        margin-left: 6.25em;
+    }
+    #waist{
+        margin-left: 6.65em;
+    }
+    #diet{
+        margin-left: 6.7em;
+    }
+    .t1{
+        float:left;
+        width:60%;
+        text-align:left;	
+        padding-top:1.5em;
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+	input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; 
+	}
+    #submit{
+        cursor:pointer;
+        width:6.5em;
+        height:2em;
+        border-radius:100px;
+        background-color: #00c848;
+        font-size:17px;
+        color:white;
+        border:none;
+        margin-left: 25.5em;
+	
+	}
+    #submit:hover{
+	    background-color: green;
+   }
+   .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  display:flex;
+  height:60px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+  margin-right: 87px;
+  
+}
+.md{
+  margin-left: 2em;
+}
+.form_img{
+  display:flex;
+  margin-top:12px;
+}
+.mySlides{
+  border-radius: 5em;
+}
+.t2{
+  padding-right:5em;
+  color: white;
+  padding-bottom: 5em;
+  padding-bottom: 0;
+}
+h3,.p1{
+  font-family: 'Cambria';
+  font-weight: bold;
+}
+   </style>  
+</head>
+
+  <body>
+    <div class="navbar">
+      <a class="active"  style="font-size:22px; padding:18px 20px 0 20px;" href="/"><i class="fa fa-fw fa-home"></i>  Home  </a>
+      <h1>I Risk Questionnaire</h1>
+      <a class="md" style="font-size:22px; padding-top:18px;" href="check-diabetes"><i class="fa fa-user-md"></i> Check your diabetes</a>
+    </div>-->
+  <div class="form_img">
+       <!-- <div style="padding:30px 0 0 10px;">
+          <img class="mySlides" src="{{url_for('static',filename='b1.jpg')}}"  height="550em" width="400em">
+          <img class="mySlides" src="{{url_for('static',filename='b2.jpg')}}"  height="550em" width="400em">
+          <img class="mySlides" src="{{url_for('static',filename='b3.jpg')}}"  height="550em" width="400em">
+        </div>
+        <script>
+          var myIndex = 0;
+          carousel();
+    
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); 
+          }
+          </script>-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Hospital</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(252, 17, 107, 0.74);
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(56, 15, 238);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+input[type=number], select {
+  text-align:center;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.center {
+  background-color:rgba(0,0,0,0.5);
+  margin: auto;
+  width:100%;
+<!--  width: 60%;
+  border: 3px solid #4d00dbc5;
+  padding: 10px;
+  width:60%;-->
+  font-size:18px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.3);
+  box-shadow:2px 2px 10px
+  rgba(0,0,0,0.3);
+  color:#fff;
+}
+
+</style>
+</head>
+<body background="https://media.istockphoto.com/id/899731774/photo/doctor-shows-liver-in-hand.jpg?s=612x612&w=0&k=20&c=ym-vQ6EWv2UJRYMprIrbUUzSPmyDPKXhmiighFjHPWI="alt="HTML" width="100%" height="100%">
+
+
+  <div class="navbar">
+  <a href="/">LIVER DISEASE PREDICTION</a>
+  <a href="/">HOME</a>
+    <a href="{{url_for('welcome')}}">CHECK YOUR LIVER DiSEASE</a>
+
+    
+    
+    
+      </div>
+    </div> 
+  </div>
+  <div class="center">
+  
+        <div class="t1">
+        <form class="form-page" action="risk_value" method="post" style="text-align:center"><br>
+        <p id="P">Please answer the following questions to determine your risk of developing liver disorders:</p>
+        
+          <p>
+            <label id="Label" >Age:<span></span></label>
+            <input type="number" max="90" id="age" name="age" auto required>
+          </p>
+          <p>
+            <label id="Label">Gender:<span></span></label>
+            <input type="radio"  id="gender" name="gender" value="male" required>
+            <label >Male</label>
+            <input type="radio"   name="gender" value="female" required>
+            <label >Female</label>
+          </p>
+         <!-- <p>
+            <label id="Label">Waist Circumference (in cm):<span>*</span></label>
+            <input type="number" id="waist" name="waist" required>
+          </p>-->
+          <p>
+            <label id="Label">Do you have a jaundice?<span></span></label>
+            <select name="db" id="db">
+                <option value="1">No</option>
+                <option value="2">Yes</option>
+ 
+              </select>
+          </p>
+          <p>
+            <label id="Label" >Do you have itchy skin?<span></span></label>
+            <select name="healthdiet" id="diet">
+                <option value="1">No</option>
+                <option value="2">Yes</option>
+              </select>
+          </p> 
+		  <p>
+            <label id="Label" >Do you have nausea?<span></span></label>
+            <select name="nausea" id="diet1">
+                <option value="1">No</option>
+                <option value="2">Yes</option>
+              </select>
+          </p> 
+		  <p>
+            <label id="Label" >Do you have Abdominal Pain?<span></span></label>
+            <select name="nausea1" id="diet2">
+                <option value="1">No</option>
+                <option value="2">Yes</option>
+              </select>
+          </p> 
+		   <p>
+            <label id="Label" >Do you have Swelling?<span></span></label>
+            <select name="nausea2" id="diet3">
+                <option value="1">No</option>
+                <option value="2">Yes</option>
+              </select>
+          </p> 
+		   <p>
+            <label id="Label" >Do you have Vomiting Sensation?<span></span></label>
+            <select name="nausea3" id="diet3">
+                <option value="1">No</option>
+                <option value="2">Yes</option>
+              </select>
+          </p> 
+          <p>
+            <input type="submit" id="submit" value="Check" style="background-color:#4CAF50;border-color:blue;color:white; padding:15px 32px;">
+            <br>
+          </p>
+           <div class="t2">
+            {% if risk=='LOW' %}
+            <h3 >Your Risk score : <span>{{risk_score}}</span></h3>
+            <h3>Your health condition is <span><u>very good</u></span> and status is <span>{{risk}}</span></h3>
+            {% elif risk=='MODERATE' %}
+            <h3>Your Risk score : <span>{{risk_score}}</span></h3>
+            <h3>Ok, your health condition is <span><u>not bad</u></span> and status is <span>{{risk}}</span></h3>
+			      {% elif risk=='HIGH' %}
+            <h3>Your Risk score : <span>{{risk_score}}</span></h3>
+            <h3>Your health condition is <span><u>not good</u></span> and status is <span>{{risk}}</span></h3>
+            <p class="p1">Check your liver disease status by clicking on <span>CHECK YOUR LIVER DISEASE</span> link on navbar. so that it redirects to prediction page. </p>
+            {% endif %}
+           </div>
+        </div>
+  </div>
+    </form>
+</div>
+  </body>
+</html>
